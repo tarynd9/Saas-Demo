@@ -16,6 +16,7 @@ selectY =  true;
 selectN = false;
 
 
+
 // hidden div variable 
 
 // var hiddenInfo;
@@ -50,6 +51,7 @@ function hidelayer2() {
 //     document.getElementById('layer2').style.display = 'none';
 //     document.getElementById('subDiv').style.display= 'block';
 // }
+
 
 
 

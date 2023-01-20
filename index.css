@@ -252,3 +252,31 @@ label {
     left:52.5%;
     position: absolute;
 }
+
+/* Image Animation */
+
+#animation {
+    height: 450px;
+    width:410px;
+    background-repeat: no-repeat;
+    animation-duration: 10s;
+    animation-name: test;
+    transition-duration: 1s;
+    z-index: 1;
+    left:30.5%;
+    top:12.5%;
+    position: absolute;
+    background-color: #d3d3d3;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+
+
+/* }
+
+@keyframes test {
+    0% {background-color: whitesmoke;}
+    25% {background-image: url(images/img_1.png);}
+    50% {background-color: whitesmoke;}
+    75% {background-image: url(images/Img_2.png)}
+    100% {background-color: whitesmoke;}
+} */

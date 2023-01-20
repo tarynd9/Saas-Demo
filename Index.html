@@ -19,26 +19,27 @@
 
 <body>
     <div id="main">
-        <!-- First name Inputs  -->
+        <form name="myForm">
+             <!-- First name Inputs  -->
         <label for="fname" id="fnameText" >First Name:</label>
-        <input required for="text" id="fname"></input>
+        <input required for="text" id="fname" required></input>
         <br>
          <!-- Last name Inputs  -->
         <br>
         <label for="lname" id="lnameText">Last Name:</label>
-        <input for="text" id="lname"></input>
+        <input for="text" id="lname" required></input>
         <br>
     
         <!--Email Input -->
         <br>
         <label email="emailInput" id="emailInputText">Email:</label>
-        <input for="text" id="emailInput"></input>
+        <input for="text" id="emailInput" required></input>
         <br> 
 
         <!-- Phone Number -->
        <br>
        <label for="number" id="PnumbText">Phone Number</label>
-       <input type="text" id="Pnumb" minlength="11"></input>
+       <input type="text" id="Pnumb" minlength="11" ></input>
        <br>
 
         <!--Company -->
@@ -102,13 +103,19 @@
 
 </div>
 <div id="subDiv">
-  <br>
-  <button type="submit" id="submitB">Submit</button>
-</div>
+    
+        <br>
+        <button type="submit" id="submitB" href="mailto:calanh@inconnection.com">Submit</button>
+      </div>
+        </form>
+       
+    
+
 
 <div id="square"> </div>
 <div id="line"> </div>
 <div id="logo"> </div>
+<div id="animation"></div>
         
 </div>
 </body>
