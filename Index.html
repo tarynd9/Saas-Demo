@@ -5,6 +5,7 @@
     <!-- Links to the JS and CSS sheets -->
     <script src="index.js"></script>
     <link rel="stylesheet" href="index.css">
+    
 
     <!-- Link to google font  -->
 
@@ -21,31 +22,31 @@
     <div id="main">
         <form name="myForm">
              <!-- First name Inputs  -->
-        <label for="fname" id="fnameText" >First Name:</label>
-        <input required for="text" id="fname" required></input>
+        <!-- <label for="fname" id="fnameText" >First Name:</label> -->
+        <input required for="text" id="fname" required placeholder="First Name"> </input>
         <br>
          <!-- Last name Inputs  -->
         <br>
-        <label for="lname" id="lnameText">Last Name:</label>
-        <input for="text" id="lname" required></input>
+        <!-- <label for="lname" id="lnameText">Last Name:</label> -->
+        <input for="text" id="lname" required placeholder="Last Name"></input>
         <br>
     
         <!--Email Input -->
         <br>
-        <label email="emailInput" id="emailInputText">Email:</label>
-        <input for="text" id="emailInput" required></input>
+        <!-- <label email="emailInput" id="emailInputText">Email:</label> -->
+        <input for="text" id="emailInput" required placeholder="Email"></input>
         <br> 
 
         <!-- Phone Number -->
        <br>
-       <label for="number" id="PnumbText">Phone Number</label>
-       <input type="text" id="Pnumb" minlength="11" ></input>
+       <!-- <label for="number" id="PnumbText">Phone Number</label> -->
+       <input type="text" id="Pnumb" minlength="11" placeholder="Phone Number" ></input>
        <br>
 
         <!--Company -->
         <br>
-        <label for="cName" id="cNameText"> Company: </label>
-        <input for="text" id="cName"></div></input>
+        <!-- <label for="cName" id="cNameText"> Company: </label> -->
+        <input for="text" id="cName" placeholder="Company"></div></input>
         <br>
        <!-- Radio Buttons needs a form action potentially? -->
        <br>
@@ -68,9 +69,10 @@
        
        <!-- Drop Down Input -->
        <br>
-       <label for="options" id="optionsText"> Your Options:</label>
+       <!-- <label for="options" id="optionsText"> Your Options:</label> -->
        <select name="activity" id="options">
           <br>
+          <option value="" disabled selected hidden> Choose your Enquiry </option>
           <option value="option1"> MemMail</option>
           <option value="option2"> Live Event</option>
           <option value="option3"> Hospitality</option>
