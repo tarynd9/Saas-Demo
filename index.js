@@ -44,6 +44,10 @@ function hidelayer2() {
     document.getElementById('layer2')
 }
 
+// display additional information 
+
+
+
 // Onload hide the Hidden
 
 // window.onload = function() {

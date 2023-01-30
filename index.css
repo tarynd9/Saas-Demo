@@ -15,9 +15,12 @@
 /* Fonts for all text based information */ 
 
 label { 
-    font-family:  'Signika Negative', sans-serif; ;
+    font-family:  'Signika Negative', sans-serif; 
 }
 
+p {
+    font-family:  'Signika Negative', sans-serif; ;
+}
 
 /* First name Style and positioning */ 
 
@@ -192,7 +195,7 @@ label {
 #submitB {
     position: absolute;
     left:53.2%;
-    top:57%;
+    top:75%;
     margin:auto;
     height:30px;
     width:300px;
@@ -221,7 +224,7 @@ label {
 /* objects */
 
 #square {
-    height:500px;
+    height:650px;
     width:750px;
     background-color: whitesmoke;
     position: absolute;
@@ -234,7 +237,7 @@ label {
 
 #line {
     width: 2px;
-    height:420px;
+    height:565px;
     top:15%;
     left:52.5%;
     position: absolute;
@@ -259,10 +262,10 @@ label {
 /* Image Animation */
 
 #animation {
-    height: 450px;
+    height: 525px;
     width:410px;
     background-repeat: no-repeat;
-    animation-duration: 10s;
+    animation-duration: 32s;
     animation-name: test;
     transition-duration: 1s;
     z-index: 1;
@@ -274,7 +277,7 @@ label {
     border-radius: 10px;
 }
 
-/* }
+}
 
 @keyframes test {
     0% {background-color: whitesmoke;}
@@ -284,7 +287,7 @@ label {
     100% {background-color: whitesmoke;}
 } 
 
-*/
+
 
 select{
     color: black;
@@ -295,4 +298,44 @@ option:focus {
 
     background-color:#71bf97
 }
+
+/* Additional Information */ 
+
+#textBoxDiv {
+    position: absolute;
+    left:55%;
+    top:56.5%;
+    z-index: 11;
+}
+
+#textBox {
+    left:50%;
+    top:56.5%;
+    height: 150px;
+    width:225px;
+    border: 1px solid #FDC608;
+}
+
+#nlDiv {
+    position: absolute;
+    left:30.5%;
+    top:72.5%;
+    z-index: 11;
+    color: grey;
+}
+
+a {
+    color:#71bf97;
+    transition-duration: 1s;
+}
+a:hover {
+    color: #2b4f62aa;
+    transition-duration: 1s;
+}
+
+a:active {
+    color:#FDC608;
+}
+
+/* Media Queries based on screen size */ 
 
